@@ -1,0 +1,45 @@
+/* body{ 
+    background-image: url(https://img.freepik.com/free-photo/technology-network-background_34629-304.jpg?size=626&ext=jpg&ga=GA1.2.2104465169.1630195200);
+    background-repeat: "no-repeat";
+    position: relative;
+    width: 100%; 
+    background-size: 1500px;
+} */
+main{
+    width: 100%;
+    height: 800px;
+}
+main h1{
+    color: white;
+    text-align: center;
+}
+
+.Form{
+    width: 300px;
+    padding: 5px;
+}
+.submit{
+    background-color: rgb(20, 56, 20);
+}
+.reset{
+    background-color: rgb(52, 190, 190);
+    color: white;
+}
+@keyframes animatedBackground {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+}
+  #animate-area {
+    /* width: 100%; */
+    background-size: 1500px;
+    min-width: 100%;
+    min-height: 100%;
+    background-image: url(https://i.ytimg.com/vi/5-LyRjHlRgQ/maxresdefault.jpg);
+    /* background-position: 0px 0px; */
+    background-repeat: repeat-x;
+    animation: animatedBackground 10s linear infinite alternate;
+  }
